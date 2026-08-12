@@ -1,0 +1,191 @@
+---
+layout: default
+---
+
+<!-- ===== Hero ===== -->
+<section class="hero">
+  <div class="wrap hero__inner">
+    <div class="hero__photo">
+      <img src="{{ site.profile_image | relative_url }}" alt="Portrait of {{ site.author.name }}" width="240" height="240">
+    </div>
+
+    <div class="hero__text">
+      <p class="hero__eyebrow">{{ site.author.location }}</p>
+      <h1 class="hero__name">{{ site.author.name }}<span class="hero__degree">, {{ site.author.degree }}</span></h1>
+      <p class="hero__tagline">{{ site.tagline }}</p>
+
+      <p class="hero__bio">{{ site.data.cv.research_interests.summary }}</p>
+
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="{{ site.cv_pdf | relative_url }}">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 3v12m0 0-4.5-4.5M12 15l4.5-4.5M4 19h16"/></svg>
+          Download CV
+        </a>
+        <a class="btn" href="mailto:{{ site.author.email }}">Email</a>
+        {%- if site.author.scholar %}<a class="btn" href="{{ site.author.scholar }}">Google Scholar</a>{% endif -%}
+        {%- if site.author.orcid %}<a class="btn" href="https://orcid.org/{{ site.author.orcid }}">ORCID</a>{% endif -%}
+        {%- if site.author.linkedin %}<a class="btn" href="{{ site.author.linkedin }}">LinkedIn</a>{% endif -%}
+        {%- if site.author.github %}<a class="btn" href="https://github.com/{{ site.author.github }}">GitHub</a>{% endif -%}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Research interests ===== -->
+<section id="research" class="section">
+  <div class="wrap">
+    <h2 class="section__title">Research Interests</h2>
+    <div class="cards">
+      {%- for area in site.data.cv.research_interests.areas %}
+      <article class="card">
+        <h3>{{ area.title }}</h3>
+        <p>{{ area.body }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ===== Publications ===== -->
+<section id="publications" class="section section--alt">
+  <div class="wrap">
+    <h2 class="section__title">Publications</h2>
+
+    <h3 class="subhead">Articles in Refereed Journals</h3>
+    <ol class="pub-list">
+      {%- for pub in site.data.publications.journals %}
+        {% include pub-item.html pub=pub %}
+      {%- endfor %}
+    </ol>
+
+    <h3 class="subhead">Book Chapters</h3>
+    <ol class="pub-list">
+      {%- for pub in site.data.publications.chapters %}
+        {% include pub-item.html pub=pub %}
+      {%- endfor %}
+    </ol>
+
+    <h3 class="subhead">Conference Presentations</h3>
+    <ol class="pub-list">
+      {%- for pub in site.data.publications.conferences %}
+        {% include pub-item.html pub=pub %}
+      {%- endfor %}
+    </ol>
+
+    {%- if site.data.cv.patent.summary %}
+    <h3 class="subhead">Patent Contribution</h3>
+    <p class="prose">{{ site.data.cv.patent.summary }}</p>
+    {%- endif %}
+  </div>
+</section>
+
+<!-- ===== Experience ===== -->
+<section id="experience" class="section">
+  <div class="wrap">
+    <h2 class="section__title">Research &amp; Professional Experience</h2>
+    <ol class="timeline">
+      {%- for job in site.data.cv.experience %}
+      <li class="timeline__item">
+        <p class="timeline__dates">{{ job.dates }}</p>
+        <div class="timeline__body">
+          <h3 class="timeline__role">{{ job.role }}</h3>
+          <p class="timeline__org">{{ job.org }} <span class="dot">&middot;</span> <span class="muted">{{ job.location }}</span></p>
+          <ul class="bullets">
+            {%- for point in job.points %}<li>{{ point }}</li>{% endfor %}
+          </ul>
+        </div>
+      </li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+
+<!-- ===== Education ===== -->
+<section id="education" class="section section--alt">
+  <div class="wrap">
+    <h2 class="section__title">Education</h2>
+    <ol class="timeline">
+      {%- for ed in site.data.cv.education %}
+      <li class="timeline__item">
+        <p class="timeline__dates">{{ ed.dates }}</p>
+        <div class="timeline__body">
+          <h3 class="timeline__role">{{ ed.degree }}</h3>
+          <p class="timeline__org">{{ ed.institution }} <span class="dot">&middot;</span> <span class="muted">{{ ed.location }}</span></p>
+          <ul class="bullets">
+            {%- for point in ed.points %}<li>{{ point }}</li>{% endfor %}
+          </ul>
+        </div>
+      </li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+
+<!-- ===== Skills ===== -->
+<section id="skills" class="section">
+  <div class="wrap">
+    <h2 class="section__title">Technical Skills</h2>
+    <div class="skills">
+      {%- for group in site.data.cv.skills %}
+      <div class="skills__group">
+        <h3>{{ group.group }}</h3>
+        <ul class="chips">
+          {%- for item in group.items %}<li>{{ item }}</li>{% endfor %}
+        </ul>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ===== Awards / editorial / languages ===== -->
+<section id="more" class="section section--alt">
+  <div class="wrap">
+    <div class="grid-3">
+      <div>
+        <h2 class="section__title section__title--sm">Awards &amp; Fellowships</h2>
+        <ul class="stack">
+          {%- for a in site.data.cv.awards %}
+          <li>
+            <strong>{{ a.name }}</strong>
+            <span class="muted">{{ a.org }}</span>
+            <span class="muted">{{ a.year }}</span>
+          </li>
+          {%- endfor %}
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="section__title section__title--sm">Editorial Experience</h2>
+        <ul class="stack">
+          {%- for e in site.data.cv.editorial %}<li>{{ e }}</li>{% endfor %}
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="section__title section__title--sm">Languages</h2>
+        <ul class="stack">
+          {%- for l in site.data.cv.languages %}
+          <li><strong>{{ l.name }}</strong> <span class="muted">{{ l.level }}</span></li>
+          {%- endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Contact ===== -->
+<section id="contact" class="section contact">
+  <div class="wrap">
+    <h2 class="section__title">Get in touch</h2>
+    <p class="prose">
+      I am open to conversations about antibody engineering, tumor biology, and
+      molecular diagnostics. The quickest way to reach me is by email.
+    </p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+      <a class="btn" href="{{ site.cv_pdf | relative_url }}">Full CV (PDF)</a>
+    </div>
+    <p class="muted small">References available upon request.</p>
+  </div>
+</section>

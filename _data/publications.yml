@@ -1,0 +1,101 @@
+# Publications.
+#
+# To add one, copy a block and fill it in. Fields:
+#   authors  - full author string; "Loh Q" is bolded automatically
+#   title    - article title, no trailing period
+#   venue    - journal or book, rendered in italics
+#   detail   - volume/pages/article number
+#   year     - used for the year badge and for sorting by hand
+#   pdf      - optional, e.g. /files/pubs/2018-biotechniques.pdf
+#   doi      - optional, bare DOI like 10.2144/btn-2018-0072
+#   url      - optional, publisher/other link if there is no DOI
+# Any of pdf/doi/url that you leave blank simply won't render a button.
+
+journals:
+  - authors: "Lai JY, Loh Q, Choong YS, Lim TS"
+    title: "Cassette hybridization for vector assembly application in antibody chain shuffling"
+    venue: "BioTechniques"
+    detail: "65:269-274"
+    year: 2018
+    pdf:
+    doi:
+    url:
+
+  - authors: "Fischbach J, Loh Q, Bier FF, Lim TS, Frohme M, Glökler J"
+    title: "Alizarin Red S for online pyrophosphate detection identified by a rapid screening method"
+    venue: "Scientific Reports"
+    detail: "7:Article 45085"
+    year: 2017
+    pdf:
+    doi:
+    url:
+
+  - authors: "Loh Q, Leong SW, Tye GJ, Choong YS, Lim TS"
+    title: "Improved Fab presentation on phage surface with the use of molecular chaperone coplasmid system"
+    venue: "Analytical Biochemistry"
+    detail: "477:56-61"
+    year: 2015
+    pdf:
+    doi:
+    url:
+
+  - authors: "Loh Q, Omar N, Glökler J, Lim TS"
+    title: "IQPA: Isothermal nucleic acid amplification-based immunoassay using DNAzyme as the reporter system"
+    venue: "Analytical Biochemistry"
+    detail: "463:67-69"
+    year: 2014
+    pdf:
+    doi:
+    url:
+
+  - authors: "Omar N, Loh Q, Tye GJ, Choong YS, Glökler J, Lim TS"
+    title: "Development of an antigen-DNAzyme based probe for a direct antibody-antigen assay using the intrinsic DNAzyme activity of a daunomycin aptamer"
+    venue: "Sensors"
+    detail: "346-355"
+    year: 2013
+    pdf:
+    doi:
+    url:
+
+  - authors: "Loh Q, Bahara NHH, Choong YS, Lim TS"
+    title: "Assembly of highly diverse genes using degenerate oligonucleotides by temperature cascade"
+    venue: "Analytical Biochemistry"
+    detail: "431:54-56"
+    year: 2012
+    pdf:
+    doi:
+    url:
+
+chapters:
+  - authors: "Loh Q, Lim TS"
+    title: "DNA G-quadruplex as a reporter system for sensor development"
+    venue: "Nucleic Acids: From Basic Aspects to Laboratory Tools"
+    detail: "Larramendy M (Ed.). InTech. 121-136"
+    year: 2016
+    pdf:
+    doi:
+    url:
+
+  - authors: "Loh Q"
+    title: "Second book chapter contribution during M.Sc. training"
+    venue:
+    detail: "Details available upon request"
+    year:
+    pdf:
+    doi:
+    url:
+
+conferences:
+  - authors: "Loh Q, Zoltán K, Glökler J, Choong YS, Lim TS"
+    title: "Terbium(III)-binding tag as reporter system for antibody-antigen interaction"
+    venue: "International Conference on Molecular Diagnostics and Biomarker Discovery"
+    detail: "Penang, Malaysia. October 23-25, 2013"
+    kind: "Poster"
+    year: 2013
+
+  - authors: "Loh Q, Glökler J, Lim TS"
+    title: "Development of a DNAzyme reporter system using the isothermal quadruplex priming amplification for antibody-antigen interaction"
+    venue: "International Congress on Chemical, Biological and Environmental Sciences"
+    detail: "Bali, Indonesia. August 8-10, 2013"
+    kind: "Oral"
+    year: 2013

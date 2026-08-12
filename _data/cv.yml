@@ -1,0 +1,159 @@
+research_interests:
+  summary: >-
+    My research interests span antibody engineering and discovery, tumor cell
+    biology, and molecular diagnostics. I am particularly interested in
+    combining wet-lab antibody engineering with emerging high-throughput and
+    computational approaches to advance therapeutic antibody development.
+  areas:
+    - title: "Antibody Engineering &amp; Discovery"
+      body: >-
+        Phage display, Fab presentation, antibody library construction and
+        chain shuffling, including chaperone coplasmid systems that improve
+        display on the phage surface.
+    - title: "Tumor Cell Biology"
+      body: >-
+        Pancreatic cancer cell metabolism, metabolic flux analysis, and
+        cell-based models spanning molecular biology, biochemistry, and cell
+        biology.
+    - title: "Molecular Diagnostics"
+      body: >-
+        DNAzyme and G-quadruplex reporter systems, isothermal nucleic acid
+        amplification immunoassays, and rapid screening methods for
+        enzymatic detection.
+
+education:
+  - degree: "Ph.D., Biological Science"
+    institution: "Nara Institute of Science and Technology (NAIST)"
+    location: "Nara, Japan"
+    dates: "April 2017 - June 2022"
+    points:
+      - "Dissertation research: tumor cell biology and cell metabolism"
+      - "Recipient of NAIST International Scholarship (2017 - 2022)"
+
+  - degree: "M.Sc., Molecular Medicine"
+    institution: "Universiti Sains Malaysia (USM)"
+    location: "Penang, Malaysia"
+    dates: "2012 - November 2015"
+    points:
+      - "Dissertation research: antibody phage display and immunoassay development"
+      - "Recipient of MyMaster Scholarship (2012 - 2015)"
+
+  - degree: "B.Sc. (Hons.), Applied Science (Biotechnology)"
+    institution: "Universiti Sains Malaysia"
+    location: "Penang, Malaysia"
+    dates: "2007 - September 2011"
+    points:
+      - "Dissertation research: isolation, identification and genome analysis of bacteriophage"
+      - "Dean's List Award (2011)"
+
+experience:
+  - role: "Researcher"
+    org: "Nara Institute of Science and Technology"
+    location: "Nara, Japan"
+    dates: "April 2017 - June 2022"
+    points:
+      - "Led an independent research program on pancreatic cancer cell metabolism, designing and executing experiments across molecular biology, biochemistry, and cell biology"
+      - "Devised experimental methods, standardized protocols, and troubleshot complex technical challenges with minimal supervision"
+      - "Managed and analyzed large experimental datasets, applying quantitative methods to interpret results and support publication"
+      - "Contributed original research findings to a patent application through precise experimental design and documentation"
+      - "Prepared formal scientific reports and manuscripts for peer review; maintained comprehensive laboratory documentation"
+
+  - role: "Assistant to Chief Editor"
+    org: "Malaysian Journal of Microbiology, USM"
+    location: "Penang, Malaysia"
+    dates: "May 2016 - March 2017"
+    points:
+      - "Reviewed and evaluated scientific manuscripts for methodological rigor, novelty, and impact across a broad range of microbiology and molecular biology topics"
+      - "Managed manuscript tracking systems from submission through peer review to publication"
+      - "Coordinated communications between authors, reviewers, and editorial staff"
+
+  - role: "Research Assistant"
+    org: "Institute for Research in Molecular Medicine, USM"
+    location: "Penang, Malaysia"
+    dates: "September 2015 - March 2016"
+    points:
+      - "Collaborated with Technical University of Applied Sciences Wildau to screen fluorescent dyes for detection of pyrophosphate in enzymatic assays (published in <em>Scientific Reports</em>, 2017)"
+      - "Designed and developed a new vector assembly method for antibody chain shuffling (published in <em>BioTechniques</em>, 2018)"
+      - "Supported administrative tracking, inventory management, and research coordination tasks"
+      - "Served as a senior lab member, mentoring and training new lab members on molecular biology techniques and lab protocols"
+
+  - role: "Research Assistant"
+    org: "Institute for Research in Molecular Medicine, USM"
+    location: "Penang, Malaysia"
+    dates: "June 2011 - August 2012"
+    points:
+      - "Designed and developed a gene assembly method using degenerate oligonucleotides (published in <em>Analytical Biochemistry</em>, 2012)"
+      - "Maintained detailed laboratory records to support publication and reproducibility"
+
+skills:
+  - group: "Molecular Biology &amp; DNA Nanotechnology"
+    items:
+      - "Molecular cloning"
+      - "PCR / RT-PCR"
+      - "DNA analysis"
+      - "Gene assembly"
+      - "Protein expression &amp; purification"
+      - "Western blotting"
+      - "Antibody phage display (manual &amp; automated, Thermo Fisher KingFisher)"
+      - "Antibody library construction"
+      - "ELISA"
+      - "DNAzyme-based detection"
+      - "Fluorescence spectrophotometry"
+
+  - group: "Cancer Biology &amp; Cell Biology"
+    items:
+      - "Cell culture &amp; transfection"
+      - "Cell-based assays"
+      - "Bone marrow transplantation &amp; xenografts (mouse model)"
+      - "HEK293T &amp; pancreatic cancer cell lines"
+      - "Metabolic flux analysis (Agilent Seahorse XF)"
+      - "Metabolic profiling"
+      - "Confocal microscopy"
+      - "Flow cytometry &amp; cell sorting"
+
+  - group: "Data Analysis &amp; Documentation"
+    items:
+      - "Bioinformatic data analysis"
+      - "Statistical analysis"
+      - "Image processing &amp; quantification"
+      - "GraphPad Prism"
+      - "ImageJ"
+      - "PyMOL"
+      - "Microsoft Office Suite"
+
+  - group: "Scientific Communication"
+    items:
+      - "Scientific writing &amp; editing"
+      - "Peer manuscript evaluation"
+      - "Oral &amp; poster presentation at international conferences"
+
+awards:
+  - name: "NAIST International Scholarship"
+    org: "Nara Institute of Science and Technology"
+    year: "2017 - 2022"
+  - name: "MyMaster Scholarship"
+    org: "Ministry of Higher Education Malaysia"
+    year: "2012 - 2015"
+  - name: "Dean's List Award"
+    org: "Universiti Sains Malaysia"
+    year: "2011"
+
+patent:
+  summary: >-
+    Contributed original experimental findings to a patent application during
+    doctoral research at Nara Institute of Science and Technology. Details
+    available upon request.
+
+editorial:
+  - "Assistant to Chief Editor, <em>Malaysian Journal of Microbiology</em> (2016 - 2017)"
+  - "Manuscript evaluation, peer review coordination, and publication workflow management"
+
+languages:
+  - name: "English"
+    level: "Fluent"
+  - name: "Malay"
+    level: "Native"
+  - name: "Chinese"
+    level: "Conversational"
+  - name: "Japanese"
+    level: "Intermediate"

@@ -1,0 +1,2 @@
+# Drop publication PDFs in this folder, then point a publication's `pdf:` field
+# in _data/publications.yml at it, e.g. /files/pubs/2018-biotechniques.pdf

@@ -1,0 +1,41 @@
+title: Qiuting Loh, Ph.D.
+tagline: Antibody Engineering &middot; Tumor Cell Biology &middot; Molecular Diagnostics
+description: >-
+  Qiuting Loh, Ph.D. is a molecular biologist working at the intersection of
+  antibody engineering and discovery, tumor cell biology, and molecular
+  diagnostics.
+
+url: "https://qiutingloh.github.io"
+baseurl: ""
+
+# --- Personal details -------------------------------------------------------
+author:
+  name: Qiuting Loh
+  degree: Ph.D.
+  location: Nashville, TN
+  email: qiutingloh@gmail.com
+  github: QiutingLoh
+  # Add these when available and they will appear automatically:
+  # scholar: https://scholar.google.com/citations?user=XXXXXXX
+  # orcid: 0000-0000-0000-0000
+  # linkedin: https://www.linkedin.com/in/xxxxxxx
+
+# Replace with a real photo (e.g. /assets/img/profile.jpg) when you have one.
+profile_image: /assets/img/profile-placeholder.svg
+
+cv_pdf: /files/QiutingLoh-Academic-CV.pdf
+
+# --- Build ------------------------------------------------------------------
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .DS_Store
