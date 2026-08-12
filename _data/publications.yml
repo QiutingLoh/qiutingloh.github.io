@@ -17,8 +17,8 @@ journals:
     venue: "BioTechniques"
     detail: "65:269-274"
     year: 2018
-    pdf:
-    doi:
+    pdf: /files/pubs/2018-biotechniques-cassette-hybridization.pdf
+    doi: 10.2144/btn-2018-0031
     url:
 
   - authors: "Fischbach J, Loh Q, Bier FF, Lim TS, Frohme M, Glökler J"
@@ -26,8 +26,8 @@ journals:
     venue: "Scientific Reports"
     detail: "7:Article 45085"
     year: 2017
-    pdf:
-    doi:
+    pdf: /files/pubs/2017-scirep-alizarin-red-s.pdf
+    doi: 10.1038/srep45085
     url:
 
   - authors: "Loh Q, Leong SW, Tye GJ, Choong YS, Lim TS"
@@ -35,8 +35,8 @@ journals:
     venue: "Analytical Biochemistry"
     detail: "477:56-61"
     year: 2015
-    pdf:
-    doi:
+    pdf: /files/pubs/2015-analbiochem-fab-presentation.pdf
+    doi: 10.1016/j.ab.2015.02.026
     url:
 
   - authors: "Loh Q, Omar N, Glökler J, Lim TS"
@@ -44,17 +44,17 @@ journals:
     venue: "Analytical Biochemistry"
     detail: "463:67-69"
     year: 2014
-    pdf:
-    doi:
+    pdf: /files/pubs/2014-analbiochem-iqpa.pdf
+    doi: 10.1016/j.ab.2014.06.012
     url:
 
   - authors: "Omar N, Loh Q, Tye GJ, Choong YS, Glökler J, Lim TS"
     title: "Development of an antigen-DNAzyme based probe for a direct antibody-antigen assay using the intrinsic DNAzyme activity of a daunomycin aptamer"
     venue: "Sensors"
-    detail: "346-355"
+    detail: "14:346-355"
     year: 2013
-    pdf:
-    doi:
+    pdf: /files/pubs/2013-sensors-antigen-dnazyme-probe.pdf
+    doi: 10.3390/s140100346
     url:
 
   - authors: "Loh Q, Bahara NHH, Choong YS, Lim TS"
@@ -62,8 +62,8 @@ journals:
     venue: "Analytical Biochemistry"
     detail: "431:54-56"
     year: 2012
-    pdf:
-    doi:
+    pdf: /files/pubs/2012-analbiochem-gene-assembly.pdf
+    doi: 10.1016/j.ab.2012.08.025
     url:
 
 chapters:
@@ -72,8 +72,8 @@ chapters:
     venue: "Nucleic Acids: From Basic Aspects to Laboratory Tools"
     detail: "Larramendy M (Ed.). InTech. 121-136"
     year: 2016
-    pdf:
-    doi:
+    pdf: /files/pubs/2016-intech-g-quadruplex-chapter.pdf
+    doi: 10.5772/61580
     url:
 
   - authors: "Loh Q"
