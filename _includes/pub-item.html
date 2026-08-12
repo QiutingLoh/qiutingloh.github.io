@@ -11,9 +11,9 @@
     {%- if include.pub.kind or include.pub.pdf or include.pub.doi or include.pub.url -%}
     <p class="pub__links">
       {%- if include.pub.kind %}<span class="tag">{{ include.pub.kind }} presentation</span>{% endif -%}
-      {%- if include.pub.pdf %}<a class="pill" href="{{ include.pub.pdf | relative_url }}">PDF</a>{% endif -%}
-      {%- if include.pub.doi %}<a class="pill" href="https://doi.org/{{ include.pub.doi }}">DOI</a>{% endif -%}
-      {%- if include.pub.url %}<a class="pill" href="{{ include.pub.url }}">Link</a>{% endif -%}
+      {%- if include.pub.pdf %}<a class="pill" href="{{ include.pub.pdf | relative_url }}" target="_blank" rel="noopener">PDF</a>{% endif -%}
+      {%- if include.pub.doi %}<a class="pill" href="https://doi.org/{{ include.pub.doi }}" target="_blank" rel="noopener">DOI</a>{% endif -%}
+      {%- if include.pub.url %}<a class="pill" href="{{ include.pub.url }}" target="_blank" rel="noopener">Link</a>{% endif -%}
     </p>
     {%- endif -%}
   </div>
